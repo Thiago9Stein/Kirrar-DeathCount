@@ -1,0 +1,88 @@
+.mod {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+    
+    box-sizing: border-box;
+}
+
+.cont {
+    position: absolute;
+    
+    display: flex;
+    background-color: black;
+
+    border: 5px solid goldenrod;
+
+    box-sizing: border-box;
+
+    overflow: auto;
+}
+
+.button_one {
+    color: goldenrod;
+    background-color: black;
+
+    border: 3px solid goldenrod;
+
+    transition: 0.2s ease;
+
+    cursor: pointer;
+
+    &:hover {
+        color: black;
+        background-color: goldenrod;
+    }
+}
+
+.button_two {
+    color: red;
+    background-color: black;
+
+    border: 3px solid red;
+
+    transition: 0.2s ease;
+
+    cursor: pointer;
+
+    &:hover {
+        color: black;
+        background-color: red;
+    }
+}
+
+.button_three {
+    color: yellow;
+    background-color: black;
+
+    border: 3px solid yellow;
+
+    transition: 0.2s ease;
+
+    cursor: pointer;
+
+    &:hover {
+        color: black;
+        background-color: yellow;
+    }
+}
+
+input[type="text"] {
+    color: goldenrod;
+    background-color: black;
+    border: 3px solid goldenrod;
+}

@@ -1,0 +1,209 @@
+/*Menu*/
+
+#menu {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    font-size: 30px;
+
+    background-color: rgb(28, 1, 44) /*rgb(255, 217, 0)*/;
+    color: goldenrod;
+
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+
+    gap: 5px;
+    
+    box-sizing: border-box;
+}
+
+#new_game {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+/*New/Edit Game*/
+
+#ngame_mod, #egame_mod {
+    display: none;
+}
+
+#ngame_cont, #egame_cont {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+        
+    height: 25%;
+    width: 20%;
+
+    gap: 5px;
+}
+
+#lngame_name, #legame_name {
+    font-size: 20px;
+}
+
+#ngame_name, #egame_name {
+    font-size: 15px;
+}
+
+#confirm_ngame, #confirm_egame {
+    position: absolute;
+
+    bottom:5px;
+
+    font-size: 15px;
+}
+
+/*New Save*/
+
+#nsave_mod {
+    display: none;
+}
+
+#nsave_cont {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 30%;
+    width: 20%;
+
+    gap: 5px;
+}
+
+/*Lists*/
+
+#lists_cont {
+    display: flex;
+    flex-direction: row;
+
+    height: 75%;
+    width: 95%;
+
+    gap: 20px;
+}
+
+/*Game list*/
+
+#game_list {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    margin-left: 5px;
+
+    background-color: black;
+    border: 3px solid goldenrod;
+
+    overflow-y: auto;
+}
+
+.game_line {
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 3px solid goldenrod;
+
+    gap: 5px;
+}
+
+.tdeaths_line {
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.delete_game {
+    margin-left: auto;
+}
+
+.delete_game,
+.edit_game,
+.show_saves {
+    position: relative;
+
+    bottom: 15px;
+    right: 10px;
+    
+    height: 50px;
+    width: 50px;
+
+    font-size: 30px;
+}
+
+/*Saves list*/
+
+#save_list {
+    display: none;
+    flex-direction: column;
+    flex: 1;
+
+    margin-left: 5px;
+
+    background-color: black;
+    border: 3px solid goldenrod;
+
+    overflow-y: auto;
+}
+
+.save_line {
+    display: flex;
+    flex-direction: column;
+
+    border: 3px solid goldenrod;
+
+    gap: 5px;
+}
+
+.sdeaths_line {
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.minus {
+    margin-left: auto;
+}
+
+.plus {
+    margin-right: 10px;
+}
+
+.minus, .edit, .plus {
+    position: relative;
+
+    bottom: 15px;
+    
+    height: 45px;
+    width: 45px;
+
+    font-size: 20px;
+}
+
+#new_save {
+    display: none;
+
+    justify-self: center;
+    align-self: center;
+
+    height: auto;
+    width: auto;
+
+    font-size: 20px;
+
+    margin-top: auto;
+    margin-bottom: 5px;
+}
