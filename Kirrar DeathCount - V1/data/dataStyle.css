@@ -1,0 +1,22 @@
+/*Data*/
+
+#data_mod {
+    display: none;
+}
+
+#data_cont {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 30%;
+    width: 25%;
+}
+
+#import_data,
+#export_data,
+#delete_data {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
