@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+
+<head>
+
+    <title>DeathCount</title>
+
+    <!--Menu and General-->
+    <link rel="stylesheet" href="menu/menuStyle.css">
+    <link rel="stylesheet" href="general/standarts.css">
+
+    <!--Games-->
+    <link rel="stylesheet" href="games/gamesStyle.css">
+    <link rel="stylesheet" href="games/gameListStyle.css">
+
+    <!--saves-->
+    <link rel="stylesheet" href="saves/savesStyle.css">
+    <link rel="stylesheet" href="saves/saveListStyle.css">
+
+    <!--Data-->
+    <link rel="stylesheet" href="data/dataStyle.css">
+
+    <link rel="icon" href="icon.png" type="image/png">
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <div id="menu">
+        <h1 id="deathcount_title">⚔︎DeathCount⚔︎</h1>
+
+        <button id="new_game" class="button_one">+ Novo Jogo</button>
+        <button id="open_data" class="button_one">Dados</button>
+
+        <div id="lists_cont">
+            <div id="game_list"></div>
+
+            <div id="save_list">
+                <button id="new_save" class="button_three">+ Novo Save</button>
+            </div>
+        </div>
+
+        <div id="ngame_mod" class="mod">
+            <div id="ngame_cont" class="cont">
+                <h1 class="modtitle">Cadastrar novo jogo</h1>
+
+                <label id="lngame_name" for="ngame_name">Nome do jogo</label>
+                <input id="ngame_name" type="text" maxlength="150">
+
+                <button id="confirm_ngame" class="button_one">Confirmar</button>
+            </div>
+        </div>
+
+        <div id="nsave_mod" class="mod">
+            <div id="nsave_cont" class="cont">
+                <h1 class="modtitle">Adicionar Save</h1>
+
+                <label id="lnsave_name" for="nsave_name">Nome do save</label>
+                <input id="nsave_name" type="text" maxlength="50">
+
+                <label id="lnsave_dif" for="nsave_dif">Dificuldade do save</label>
+                <input id="nsave_dif" type="text">
+
+                <button id="confirm_nsave" class="button_one">Confirmar</button>
+            </div>
+        </div>
+
+        <div id="egame_mod" class="mod">
+            <div id="egame_cont" class="cont">
+                <h1 class="modtitle">Editar jogo</h1>
+
+                <label id="legame_name" for="ngame_name">Nome do jogo</label>
+                <input id="egame_name" type="text" maxlength="150">
+
+                <button id="confirm_egame" class="button_one">Confirmar</button>
+            </div>
+        </div>
+
+        <div id="esave_mod" class="mod">
+            <div id="esave_cont" class="cont">
+                <h1 class="modtitle">Editar Save</h1>
+
+                <label id="lesave_name" for="esave_name">Nome do save</label>
+                <input id="esave_name" type="text" maxlength="50">
+
+                <label id="lesave_dif" for="esave_dif">Dificuldade do save</label>
+                <input id="esave_dif" type="text" maxlength="22">
+
+                <label id="lesave_dc" for="esave_dc">Mortes</label>
+                <input id="esave_dc" type="number" min="0">
+
+                <button id="confirm_esave" class="button_one">Confirmar</button>
+
+                <button id="delsave" class="button_two">Excluir Save</button>
+            </div>
+        </div>
+
+        <div id="data_mod" class="mod">
+            <div id="data_cont" class="cont">
+                <h1 class="modtitle">Dados da aplicação</h1>
+                <button id="export_data" class="button_three">Exportar dados</button>
+                <button id="import_data" class="button_one">Importar dados</button>
+                <button id="delete_data" class="button_two">Excluir dados</button>
+            </div>
+        </div>
+
+        <div id="alertmod" class="mod">
+            <div id="alertcont" class="cont">
+                <h1 id="alertmsg"></h1>
+                <button id="closealert" class="button_two">Fechar</button>
+            </div>
+        </div>
+
+        <div id="confdelete_mod" class="mod">
+            <div id="confdelete_cont" class="cont">
+                <h1 class="modtitle">Deseja mesmo fazer a exclusão?</h1>
+                <button id="canc_delete" class="button_three">Cancelar</button>
+                <button id="conf_delete" class="button_two">Confirmar</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <!--Elements-->
+        <script src="menu/menuElements.js"></script>
+        <script src="games/gamesElements.js"></script>
+        <script src="saves/savesElements.js"></script>
+        <script src="data/dataElements.js"></script>
+
+        <!--Menu and General-->
+        <script src="menu/menuScript.js"></script>
+        <script src="general/general.js"></script>
+        
+        <!--Games-->
+        <script src="games/games.js"></script>
+        <script src="games/gamesScript.js"></script>
+
+        <!--Saves-->
+        <script src="saves/saves.js"></script>
+        <script src="saves/savesScript.js"></script>
+
+        <!--Data-->
+        <script src="data/data.js"></script>
+
+    </footer>
+
+</body>
+
+</html>
