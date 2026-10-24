@@ -1,0 +1,25 @@
+/*New/Edit Save*/
+
+#nsave_mod, #esave_mod {
+    display: none;
+}
+
+#nsave_cont, #esave_cont {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 30%;
+    width: 20%;
+
+    gap: 5px;
+}
+
+#esave_cont {
+    height: 40%;
+}
+
+#confirm_esave {
+    margin-top: 10px;
+} 

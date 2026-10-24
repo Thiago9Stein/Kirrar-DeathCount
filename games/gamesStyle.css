@@ -1,0 +1,33 @@
+/*New/Edit Game*/
+
+#ngame_mod, #egame_mod {
+    display: none;
+}
+
+#ngame_cont, #egame_cont {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+        
+    height: 25%;
+    width: 25%;
+
+    gap: 5px;
+}
+
+#lngame_name, #legame_name {
+    font-size: 20px;
+}
+
+#ngame_name, #egame_name {
+    font-size: 15px;
+}
+
+#confirm_ngame, #confirm_egame {
+    position: relative;
+
+    margin-top: 15px;
+
+    font-size: 15px;
+}
